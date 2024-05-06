@@ -1,0 +1,200 @@
+Lista de Exercício 02 -Entrada e Saída de Dados
+Lista de Exercício 02 -Entrada e Saída de Dados em Python
+Escolha pelo menos 10 questões desta lista para responder e enviar
+Deadline: 08/05/2023
+Baixe a lista clicando aqui
+elson8718@gmail.com Mudar de conta
+ 
+Não compartilhado
+ 
+Rascunho salvo.
+* Indica uma pergunta obrigatória
+Nome:
+*
+elson dos santos da costa
+Turma
+*
+noturno - 85369
+E-mail
+*
+elson.costa@ba.estudante.senai.br
+1ª Questão
+print("ola, mundo")
+2ª Questão
+num = int(input("digite um numero"))
+print("numero digitado foi %d" %num)
+3ª Questão
+num1 = int(input("digite um numero"))
+num2 = int(input("digite um numero"))
+soma = num1+num2
+print("A soma e: %d" %soma)
+4ª Questão
+#Media escolar
+
+unidade1 = float (input("Informe a nota de 1 unidade"))
+unidade2 = float (input("Informe a noda da 2 unidade"))
+unidade3 = float (input("Informe a noda da 3 unidade"))
+unidade4 = float (input("Informe a noda da 4 unidade"))
+media = unidade1+unidade2+unidade3+unidade4/4
+
+
+if media >= 5:
+    print ("Voce passou com a media %.1f" %media)
+else:
+        print("Voce perdeu a media %.1f" %media)
+
+5ª Questão
+def metro(metros):
+cent = metros * 100
+return cent
+metros = 3.5
+cent = metro(metros)
+printf(f"{metros} metros equivale a {cen}centimetros")
+6ª Questão
+def metr(metros):
+cent = metros *100
+return centmetros = 3.5
+cent = metr(metros)
+print(f"{metros} metros equivale a {cent}centimetros")
+7ª Questão
+# doblo da ariea
+
+num = float(input("digite o doblo da aarea"))
+
+area = num ** 2
+dobro = area + area 
+print("area ", area)
+print("Dobro da area ", dobro)
+
+8ª Questão
+# Quanto voce ganha por hora ?
+
+num = float(input("quanto você ganha por hora "))
+h = float(input(" o número de horas tvoce trabalha por dia. "))
+area = h *30
+print("Eu recebo por hora e: ", num)
+print("O numero de hora que trabalho por mes e : ", area)
+
+9ª Questão
+tf = float(input('Temperatura em Fahrenheit: '))
+print ('Temperatura em Celsius: %.2f' %(5/9 * (tf-32)))
+
+10ª Questão
+# Temperatura
+tc = float(input('Temperatura em Celsius: '))
+print ('Temperatura em Fahrenheit: %.2f' %(9*tc/5 + 32))
+
+
+
+11ª Questão
+
+# real e inteiro
+
+a1 = int (input("Digite o numero inteiro 1 "))
+a2 = int (input("dugite o numero inteiro 2 "))
+a3 = float (input("Digite um numeroreal "))
+
+
+
+print("letra a ",((a1 * 2) + (a2/2)))
+print("letra b ",(a1 * 3) + a3)
+print("letra c ", a3**3)
+
+12ª Questão
+
+# peso ideal
+altura = float (input("Digite sua altura "))
+
+
+
+
+print(" peso  ",(72.7*altura) - 58)
+
+
+
+13ª 
+
+# peso ideal
+h = float (input("Digite sua altura "))
+
+
+
+
+print(" peso para homem  ",(72.7*h) - 58)
+print("peso para mulheres ", (62.1*h) - 44.7 )
+
+
+
+
+14ª
+
+# peso estabelecido(50 quilos)
+
+peso = float (input("Digite o peso do produto "))
+
+limite  = 50
+if peso > 50:
+  
+    res =  peso - limite
+    res2 = res * 4 
+    print(" Peso utrapassado foi: ", res )
+    print(" O valor da multa: ", res2 ,"reais" )
+elif peso == limite:
+    print("nao ha")
+else:
+    
+    print(" Peso ok  ",peso)
+    
+
+
+15ª
+
+# Salario
+
+h = float (input("Quanto voce ganha por hora "))
+tm = float (input("quntas hora voce trabalha por mes "))
+salario = h *26
+ir =  salario *(11/100)
+inss = salario*(8/100) 
+sid = salario*(5/100)
+
+print(" Seu salaro bruto e:  ", salario ,"por mes" )
+print(" voce pagou ao INSS: ", inss ,"reais" )
+print(" voce pagou ao sidicato: ", sid ,"reais" )
+print(" Seu salario liquido: ", salario - inss - sid - ir  )
+print(" Seu salaro bruto e:  ", salario  )
+print(" Desconto de imposto de renda seu salario e: ", salario - ir )
+print(" Desconto de INSS seu salario e: ", salario - inss )
+print(" Desconto de Sidicato seu salario e: ", salario - sid )
+print(" Total salario liquido e:  ", salario -(salario - inss - sid - ir)  )
+
+16ª
+
+
+# Loja de tintas
+
+t = float (input("Digite tamanho em metro quadradado da area a ser pintada "))
+
+ctl = 1/3
+tinta = 18
+custo = 80.00
+calculo = t / 18
+real = calculo * custo
+
+print(" Quantidade de tinta a ser comprada  e:  ", calculo)
+print(" O valor da tinha a ser gasto e: ", real ,"reais" )
+
+
+
+ 
+
+17ª
+
+
+
+
+ 
+
+
+
+
